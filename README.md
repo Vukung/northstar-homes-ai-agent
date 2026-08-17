@@ -92,4 +92,4 @@ AI tools were used in building this project:
 - **Claude (Anthropic)** was used to help design and refine the system prompt for Riya, and to scaffold portions of the server and frontend code.
 - **Antigravity (Google DeepMind)** was the primary coding agent used to generate and organize the full codebase.
 
-All generated code was reviewed for correctness against the assignment requirements.
+All generated code was reviewed for correctness against the assignment requirements, and testing surfaced real behavioral issues (e.g. opt-out compliance being unreliable when enforced through prompting alone), which were fixed at the implementation level. See test-cases.md for details.
